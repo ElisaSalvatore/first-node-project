@@ -8,5 +8,5 @@ let myInterface = {
     myNumber: 10,
     myString: "Ciao sono una stringa"
 };
-console.log("Il valore di myNumber è ", myInterface.myNumber);
-console.log("Il valore di myString è ", myInterface.myString);
+console.log("Il valore di myNumber è", myInterface.myNumber);
+console.log("Il valore di myString è", myInterface.myString);
