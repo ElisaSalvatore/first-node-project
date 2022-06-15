@@ -16,9 +16,9 @@
  *      sviluppo.
 */
 
-import faker from 'faker';
+//import faker from 'faker';
 
-function greeting(name: string, lang: 'en' | 'it' | 'es' = 'en'): string {
+function greet(name: string, lang: 'en' | 'it' | 'es' = 'en'): string {
     const greetMap = {
         en :"Hello",
         it: "Ciao",
@@ -33,9 +33,9 @@ function greeting(name: string, lang: 'en' | 'it' | 'es' = 'en'): string {
 // console.log(faker.name.firstName());
 
 for (let i = 0; i < 10; i++) {
-    const randomName = faker.name.firstName();
-    const email = faker.internet.email();
+    // const randomName = faker.name.firstName();
+    // const email = faker.internet.email();
 
-    console.log(greeting(randomName, 'es'));
-    console.log(email);
+    // console.log(greeting(randomName, 'es'));
+    // console.log(email);
 }
